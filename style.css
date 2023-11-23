@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+}
+body{
+    background-color: #001c30;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+.add{
+    position: fixed;
+    top:1rem;
+    right: 1rem;
+    background-color: #4158d0;
+    color: #ffff;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+
+}
+.add:active{
+   transform: scale(0.96);
+}
+.add:hover{
+    background-color: #3eecac;
+    color: black;
+}
+.note{
+    background-color: white;
+    box-shadow: 0 10px 4px rgba(0, 0, 0,0.2);
+    margin: 30px 20px;
+    height: 400px;
+    width:400px ;
+}
+.note .tools{
+    background-color: #3eecac;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+.note .tools button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+.note textarea{
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    border: none;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+}
+.h{
+    display: none;
+}
+.main{
+    padding: 20px;
+}
